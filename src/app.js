@@ -5,9 +5,14 @@ import "./style.css";
 window.onload = function() {
   let randomNumber = Math.random() * 10;
   document.querySelector("#excuse").innerHTML = generateExcuse;
-  console.log("Hello Rigo from the console!" + randomNumber);
+  console.log("Hello Rigo from the console!");
 };
 
 let generateExcuse = () => {
-  return "No me sonó la alarma";
+  let pronoun = [];
+  let subject = [];
+  let action = [];
+  let where = [];
+
+  return "No me dieron permiso";
 };
