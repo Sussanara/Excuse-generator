@@ -8,10 +8,10 @@ window.onload = function() {
 };
 
 let generateExcuse = () => {
-  let pronoun = ["Mi", "La"];
+  let pronoun = ["Mi"];
   let subject = ["mamá", "abuela", "hermana"];
-  let action = ["dio vuelta", "me quitó"];
-  let possetion = ["postre", "galleta"];
+  let action = ["se comió", "me quitó"];
+  let possetion = ["el postre", "mi galleta"];
   let where = ["en el almuerzo", "en la cena"];
 
   let pronounIndex = Math.floor(Math.random() * pronoun.length);
